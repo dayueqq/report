@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>经销商信息</title>
+<link href="../../res/css/staff/report.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  window.onload=function(){
+	  $('#table tr').each(function(i){
+		   if(i%2==1){
+			   $(this).css('backgroundColor','#FCC');
+		   }
+	   });
+  }
+</script>
+
+<body>
+  
+  <div class="info">
+      <div align="right"><a href="index.php">返回首页</a></div><br />
+      <table id="table" width="100%" border="1">
+        <tr>
+          <td width="8%">员工编号</td>
+          <td width="15%">员工</td>
+          <td width="11%">身份</td>
+          <td width="10%">操作</td>
+        </tr>
+        <!--{section name=info_id loop=$info}-->
+            <tr>
+              <td><!--{$info[info_id].staffid}--></td>
+              <td><!--{$info[info_id].name}--></td>
+              <td><!--{$info[info_id].power}--></td>
+              <td><a href="operation.php?action=del&staffid=<!--{$info[info_id].staffid}-->"><img src="../../res/img/b_drop.png" title="删除" /></a></td>
+            </tr>
+        <!--{/section}-->
+      </table>
+      <div style="clear:both; font-size:14px; padding-top:15px;"> 
+         <p class="page" align="center"><!--{$pageshow}--></p>   <!-- 显示页码-->
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+﻿s@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0 0;
+	margin:0 0;
+}
+body{
+	
+	background:url(../../img/background.jpg) repeat;
+	margin:0;
+}
+
+
+.header{
+	text-align:center;	
+}
+
+.header p{
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:800;
+	color:#FFF;
+}
+
+
+.section{
+	background:#FFF;
+	width:93%;
+	line-height:14px;
+	margin:0 auto;
+	border:#c1bfc0 solid 1px;
+	text-align:center;	
+}
+
+.section1{
+	width:93%;
+	margin:0 auto;
+	height:500px;
+}
+
+.addReport
+{
+	display:block;
+	float:left;
+	width:48%;
+	height:100px;
+	background:#00aeef;
+	text-align:center;
+	line-height:100px;
+	margin:10px auto 0 0;	
+}
+
+.addReport a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+.checkReport
+{
+	display:block;
+	float:right;
+	width:48%;
+	height:100px;
+	background:#00a600;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+}
+
+.checkReport a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+
+.checkAds
+{
+	display:block;
+	float:left;
+	width:48%;
+	height:100px;
+	background:#ff5300;
+	text-align:center;
+	line-height:100px;
+	margin:10px auto 0 0;
+
+}
+
+.checkAds a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+.checkAdsApply
+{
+	display:block;
+	float:right;
+	width:48%;
+	height:100px;
+	background:#8cbf26;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.checkAdsApply a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+.applyAds
+{
+	display:block;
+	float:left;
+	width:48%;
+	height:100px;
+	background:#996600;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.applyAds a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+.wait
+{
+	display:block;
+	float:right;
+	width:48%;
+	height:100px;
+	background:#8d8d8d;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.wait a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+
+

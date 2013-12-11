@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.info{
+	width:950px;
+	margin:0px auto;
+}
+a{
+	text-decoration:none; border:0px;
+}
+.info #table tr td a img {
+	float:left; margin-right:5px; border:0px;
+}
+#info {
+	display:none;
+	height: 400px;
+	width: 500px;
+	margin-left: -250px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	background:#FFF;
+	-webkit-box-shadow:1px 1px 3px #292929;    -moz-box-shadow:1px 1px 3px #292929;    box-shadow:1px 1px 3px #292929;
+}

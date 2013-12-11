@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>经销商信息</title>
+</head>
+<script src="../../res/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+  window.onload=function(){
+	  $('.leftDate').each(function(i){
+		  var start = new Date($(".startDate:eq("+i+")").html());
+          var end = new Date($(".deadDate:eq("+i+")").html());
+          var ss=(end-start)/86400000; 
+		  if(ss>0){
+			  $(this).html(ss);   
+		  }
+	  });
+  }
+</script>
+
+<body>
+  <div class="info" style="width:950px; margin:10px auto">
+      <a href="index.php" style="float:right">返回首页</a>
+      <br /><br />
+      <table width="100%" border="1">
+        <tr>
+          <td>广告位置</td>
+          <td>申请员工</td>
+          <td>专题</td>
+          <td>链接</td>
+          <td>申请时间</td>
+          <td>截止时间</td>
+          <td>剩余天数</td>
+        </tr>
+        <!--{section name=info_id loop=$info}-->
+            <tr>
+              <td width="15%"><!--{$info[info_id].placename}--></td>
+              <td width="10%"><!--{$info[info_id].staffname}--></td>
+              <td><!--{$info[info_id].adsTitle}--></td>
+              <td width="10%"><a href="<!--{$info[info_id].link}-->" target="_blank">打开链接</a></td>
+              <td class="startDate" width="10%"><!--{$info[info_id].startTime}--></td>
+              <td class="deadDate" width="10%"><!--{$info[info_id].deadTime}--></td>
+              <td class="leftDate" width="8%"><!--{$info[info_id].left}--></td>
+            </tr>
+        <!--{/section}-->
+      </table>
+
+  </div>
+</body>
+</html>

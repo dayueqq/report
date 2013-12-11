@@ -1,0 +1,145 @@
+﻿s@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0 0;
+	margin:0 0;
+}
+body{
+	
+	background:url(../../img/background.jpg) repeat;
+	margin:0;
+}
+
+
+.header{
+	text-align:center;	
+}
+
+.header p{
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:800;
+	color:#FFF;
+}
+
+
+.section{
+	background:#FFF;
+	width:93%;
+	line-height:14px;
+	margin:0 auto;
+	border:#c1bfc0 solid 1px;
+	text-align:center;	
+}
+
+.section1{
+	width:93%;
+	margin:0 auto;
+	height:500px;
+}
+
+.workerReport
+{
+	display:block;
+	float:left;
+	width:48%;
+	height:100px;
+	background:#00aeef;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.workerReport a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600px;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+.adsRoport
+{
+	display:block;
+	float:right;
+	width:48%;
+	height:100px;
+	background:#00a600;
+	text-align:center;
+	line-height:100px;
+	margin:10px auto 0 0;
+
+}
+
+.adsRoport a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600px;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+.addWorker
+{
+	display:block;
+	float:left;
+	width:48%;
+	height:100px;
+	background:#ff5300;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.addWorker a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+.workerManage
+{
+	display:block;
+	float:right ;
+	width:48%;
+	height:100px;
+	background:#00aba9;
+	text-align:center;
+	line-height:100px;
+	margin:10px 0 0 auto;
+
+}
+
+.workerManage a
+{
+	display:block;
+	width:100%;
+	height:100px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	text-decoration:none;
+	padding:40px auto;	
+}
+
+
+
+
