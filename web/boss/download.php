@@ -1,7 +1,7 @@
 <?php
   header("Content-type:application/vnd.ms-excel");
   header("Content-Disposition:filename=test.xls");
-  $sql=mysql_connect('localhost','root','');
+  $sql=mysql_connect('localhost','root','root');
   $db=mysql_select_db("report",$sql);
   mysql_query('set names utf8');
   
